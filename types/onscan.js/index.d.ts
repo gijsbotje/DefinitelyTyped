@@ -90,7 +90,7 @@ export interface ScanOptions {
      * fired if an input field is focused. You can either pass an DOMElement, a
      * CSS selector or an array containing multiple besaid objects
      */
-    ignoreIfFocusOn?: boolean;
+    ignoreIfFocusOn?: boolean | string | string[];
     /**
      * Key code of the scanner hardware button (i.e. if the scanner button a
      * acts as a key itself). Knowing this key code is important, because it is
